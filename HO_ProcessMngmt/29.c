@@ -22,7 +22,7 @@ int main()
     // Set new scheduling policy
     param.sched_priority = 10;
 
-    // current program policy set to real-time FIFO, with priority 10
+    // current program '0' policy set to real-time FIFO, with priority 10
     if (sched_setscheduler(0, SCHED_FIFO, &param) == -1)
     {
         perror("sched_setscheduler");
@@ -33,3 +33,9 @@ int main()
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_ProcessMngmt$ sudo ./a.out 
+// [sudo] password for arujjval: 
+// Current policy: SCHED_OTHER
+// Policy changed to SCHED_FIFO

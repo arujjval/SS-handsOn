@@ -32,3 +32,11 @@ int main()
         sleep(5);
     }
 }
+
+// OUTPUT
+// Created ./texts/file_0.txt - FD: 3
+// Created ./texts/file_1.txt - FD: 4
+// Created ./texts/file_2.txt - FD: 5
+// Created ./texts/file_3.txt - FD: 6
+// Created ./texts/file_4.txt - FD: 7
+// PID: 13600

@@ -16,3 +16,8 @@ int main() {
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_ProcessMngmt/19$ ps -o pid,stat,cmd -p 22608
+//     PID STAT CMD
+//   22608 S+   ./a.out

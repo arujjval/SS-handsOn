@@ -33,3 +33,7 @@ int main() {
     close(fd);
     return 0;
 }
+
+// OUTPUT (in sample.txt)
+// Parent process
+// Child Process

@@ -9,7 +9,7 @@ int main() {
     int fd;
 
     // creat -> SC to create file, 0644 -> octal file permission
-    fd = creat("sample.txt", 0644);
+    fd = creat("./sample.txt", 0644);
 
     if(fd == -1) {
         perror("creat");
@@ -23,3 +23,7 @@ int main() {
 
     return 0;
 }
+
+// OUTPUT
+// File created successfully.
+// File Descriptor: 3

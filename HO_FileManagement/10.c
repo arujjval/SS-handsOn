@@ -42,3 +42,7 @@ int main() {
 
     return 0;
 }
+
+// OUTPUT 
+// Arujjwal Negi
+// Value of lseek: 20

@@ -7,7 +7,7 @@ int main() {
     // struct to manage locking config in fcntl
     struct flock lock; 
 
-    fd = open("./texts/sample.txt", O_CREAT | O_TRUNC | O_RDWR, 0644);
+    fd = open("../texts/sample.txt", O_CREAT | O_TRUNC | O_RDWR, 0644);
 
     if(fd == -1) {
         perror("open");
@@ -36,3 +36,8 @@ int main() {
     close(fd);
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_FileManagement/16$ ./a.out 
+// Write lock acquired.
+// Press Enter to release the lock..

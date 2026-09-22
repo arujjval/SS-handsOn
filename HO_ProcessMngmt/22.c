@@ -45,3 +45,12 @@ int main()
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_ProcessMngmt$ ./a.out 
+// Parent process: PID = 23550
+// Child PID = 23551
+// Parent is sleeping for 30 seconds...
+// Child process: PID = 23551
+// Child is exiting...
+// Parent is now exiting...

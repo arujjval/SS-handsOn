@@ -19,3 +19,10 @@ int main()
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_ProcessMngmt/28$ ./program 
+// PID = 27405
+
+// arujjval@arujjval:~/SS/HO_ProcessMngmt/28$ renice 10 -p 27405
+// 27405 (process ID) old priority 0, new priority 10

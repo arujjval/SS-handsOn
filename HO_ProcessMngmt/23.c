@@ -45,3 +45,14 @@ int main()
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_ProcessMngmt$ ./a.out 
+// Parent PID = 24049
+// Child PID = 24050
+// Child started. PID = 24050
+// My parent PID = 24049
+// Parent exiting...
+// arujjval@arujjval:~/SS/HO_ProcessMngmt$ After parent terminates:
+// Child PID = 24050
+// New parent PID = 10904

@@ -5,7 +5,7 @@
 int main() {
     int fd, fd2;
 
-    fd = open("./texts/sample.txt", O_CREAT | O_TRUNC | O_WRONLY, 0644);
+    fd = open("../texts/sample.txt", O_CREAT | O_TRUNC | O_WRONLY, 0644);
 
     if(fd == -1) {
         perror("Open File");
@@ -24,3 +24,8 @@ int main() {
     close(fd);
     close(fd2);
 }
+
+// OUTPUT
+// Hello
+// World
+

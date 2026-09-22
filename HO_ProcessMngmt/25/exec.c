@@ -15,3 +15,8 @@ int main() {
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_ProcessMngmt/25$ ./a.out 
+// Before exec
+// Hello Arujjwal

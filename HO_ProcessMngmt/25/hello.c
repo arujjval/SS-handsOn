@@ -6,3 +6,7 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_ProcessMngmt/25$ ./hello Arujjwal
+// Hello Arujjwal

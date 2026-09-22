@@ -58,3 +58,10 @@ int main()
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_FileManagement/18$ ./read_lock 
+// Trying to acquire read lock on Record 2...
+// Read lock acquired.
+// Record 2: ID = 2, Name = Modified
+// Read lock released.

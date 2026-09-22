@@ -20,3 +20,8 @@ int main() {
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_ProcessMngmt$ ./a.out 
+// Minimum real-time priority: 1
+// Maximum real-time priority: 99

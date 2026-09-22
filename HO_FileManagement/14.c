@@ -43,3 +43,7 @@ int main(int argc, char *argv[]) {
 
     return 0;   
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_FileManagement$ ./a.out ./sample.txt
+// Regular file

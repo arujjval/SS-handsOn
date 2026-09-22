@@ -34,3 +34,15 @@ int main()
 
     return 0;
 }
+
+// OUTPUT 
+// Inode number: 12329
+// Hard links: 1
+// UID: 1000
+// GID: 1000
+// Size: 2370 bytes
+// Block size: 4096 bytes
+// Number of blocks: 8
+// Last access: Tue Sep 22 15:02:27 2026
+// Last modification: Thu Sep 17 11:54:07 2026
+// Last change: Thu Sep 17 11:54:07 2026

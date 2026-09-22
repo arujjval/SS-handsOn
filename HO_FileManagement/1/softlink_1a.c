@@ -14,3 +14,7 @@ int main()
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_FileManagement/1$ ./a.out 
+// Soft link created successfully.

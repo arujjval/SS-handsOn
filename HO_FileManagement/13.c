@@ -50,3 +50,9 @@ int main()
 
     return 0;
 }
+
+// OUTPUT 
+// Waiting for input for 10 seconds...
+// Arujjwal Negi Mtech CSE
+// Data is available on STDIN.
+// Input: Arujjwal Negi Mtech CSE

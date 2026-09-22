@@ -43,7 +43,7 @@ int main()
     printf("Waiting for Child 2...\n");
 
     // waitpid(pid wanna track, (int) to save exit status, options)
-    // '0' option: block till specific child terminates ie. child2
+    // 0 option: block till specific child terminates ie. child2
     // Parents gets blocked till child2 terminates
     int status;
     waitpid(child2, &status, 0);
@@ -53,3 +53,12 @@ int main()
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_ProcessMngmt$ ./a.out 
+// Child 1: PID = 24426
+// Child 2: PID = 24427
+// Parent: PID = 24425
+// Waiting for Child 2...
+// Child 3: PID = 24428
+// Child 2 has terminated with 2 exit status.

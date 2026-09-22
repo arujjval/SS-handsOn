@@ -25,3 +25,10 @@ int main() {
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_ProcessMngmt$ ./a.out 
+// Parent process: PID = 23072
+// Child PID = 23073
+// Child Process: PID = 23073
+// Child's Parent PID: 23072

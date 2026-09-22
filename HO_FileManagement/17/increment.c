@@ -43,3 +43,8 @@ int main() {
     close(fd);
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_FileManagement/17$ ./a.out 
+// Write lock acquired.
+// New ticket number: 105

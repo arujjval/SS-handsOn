@@ -63,3 +63,126 @@ int main()
 
     return 0;
 }
+
+
+// OUTPUT
+//  ----- Running Processes ------ 
+ 
+// PID: 1
+// Name:   systemd
+// State:  S (sleeping)
+// PPid:   0
+// VmRSS:     12116 kB
+// Threads:        1
+
+// PID: 2
+// Name:   init-systemd(Ub
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:      1792 kB
+// Threads:        2
+
+// PID: 6
+// Name:   init
+// State:  S (sleeping)
+// PPid:   2
+// VmRSS:      1920 kB
+// Threads:        2
+
+// PID: 55
+// Name:   systemd-journal
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:     15020 kB
+// Threads:        1
+
+// PID: 102
+// Name:   systemd-udevd
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:      6016 kB
+// Threads:        1
+
+// PID: 171
+// Name:   systemd-resolve
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:     12672 kB
+// Threads:        1
+
+// PID: 172
+// Name:   systemd-timesyn
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:      7680 kB
+// Threads:        2
+
+// PID: 181
+// Name:   cron
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:      2432 kB
+// Threads:        1
+
+// PID: 182
+// Name:   dbus-daemon
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:      4864 kB
+// Threads:        1
+
+// PID: 186
+// Name:   ollama
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:     30580 kB
+// Threads:        11
+
+// PID: 190
+// Name:   systemd-logind
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:      8320 kB
+// Threads:        1
+
+// PID: 194
+// Name:   agetty
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:      1920 kB
+// Threads:        1
+
+// PID: 202
+// Name:   rsyslogd
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:      5120 kB
+// Threads:        4
+
+// PID: 215
+// Name:   agetty
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:      1792 kB
+// Threads:        1
+
+// PID: 223
+// Name:   unattended-upgr
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:     22144 kB
+// Threads:        2
+
+// PID: 352
+// Name:   login
+// State:  S (sleeping)
+// PPid:   2
+// VmRSS:      4224 kB
+// Threads:        1
+
+// PID: 401
+// Name:   systemd
+// State:  S (sleeping)
+// PPid:   1
+// VmRSS:     11136 kB
+// Threads:        1

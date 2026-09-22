@@ -19,3 +19,5 @@ int main() {
     
     return 0;
 }
+
+// OUTPUT: see "./texts/copyFile1.txt" & "./texts/copyFile1.txt"

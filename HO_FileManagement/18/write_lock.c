@@ -84,3 +84,11 @@ int main()
 
     return 0;
 }
+
+// OUTPUT
+// arujjval@arujjval:~/SS/HO_FileManagement/18$ ./write_lock 
+// Trying to acquire write lock on Record 2...
+// Write lock acquired.
+// Before modification: 2 Bob
+// Record 2 modified.
+// Write lock released.
